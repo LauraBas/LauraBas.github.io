@@ -1,0 +1,83 @@
+:root{
+	--factorial-red: #ea4233;
+}
+
+body{	
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.container {
+	text-align: center;
+	display: block;
+	align-items: center;
+
+}
+
+img {
+	box-shadow: 3px 0px 9px 6px #0000006b;
+	margin: 5px;
+}
+
+i.fa {
+	font-size: 6rem;
+	color: var(--factorial-red);
+}
+
+strong {
+	color: var(--factorial-red);	
+	font-weight: bold;
+}
+
+
+#school{
+	border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    border-top: 8px solid white;
+}
+
+#plane,  #recerca,  #lockdown, #factoria {
+	border: 8px white solid;
+}
+
+#pessigolles{
+	border-bottom: 8px solid white;
+    border-right: 8px solid white;
+
+}
+
+
+#together {
+	width: 380px;	
+}
+
+p{	
+	max-width: 300px;
+	padding: 25px;
+	font-size: 28px;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 33% 34% 33%;
+	align-items: center;
+	padding: 3rem;
+   
+}
+
+#chau{
+	font-family: cursive;	
+}
+

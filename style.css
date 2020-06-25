@@ -1,0 +1,122 @@
+:root{
+	--factorial-red: #ea4233;
+}
+
+body{	
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+.container {
+	text-align: center;
+	display: block;
+	align-items: center;
+
+}
+
+img {
+	width: 250px;
+	box-shadow: 3px 0px 9px 6px #0000006b;
+	margin: 5px;
+}
+
+i.fa-linkedin, i.fa-github, i.fa-codepen  {
+	font-size: 6rem;
+	color: var(--factorial-red);
+	display:inline-block;
+}
+i.fa-square-o, i.fa-check-square-o {
+	font-size: 2rem;
+	color: var(--factorial-red);
+	display: inline-block;
+
+}
+.course{
+	display: inline-block;
+	align-items: left;
+	font-size: 22px;
+
+}
+
+strong {
+	color: var(--factorial-red);	
+	font-weight: bold;
+}
+
+
+#school{
+	border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    border-top: 8px solid white;
+}
+
+#plane,  #recerca,  #lockdown, #factoria {
+	border: 8px white solid;
+}
+
+#pessigolles{
+	border-bottom: 8px solid white;
+    border-right: 8px solid white;
+
+}
+
+
+#together {
+	width: 380px;	
+}
+
+.text{	
+	max-width: 300px;
+	padding: 25px;
+	font-size: 28px;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem; 
+}
+
+@media only screen and (min-width: 900px) {
+  .row {
+    display: grid;
+	grid-template-columns: 33% 34% 33%;
+  }
+  img {
+	width: auto;
+  }
+}
+
+.todo{
+	display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+
+
+#chau{
+	font-family: cursive;	
+}
+
+i.fa-envelope, i.fa-mobile{
+	font-size: 1.5rem;
+	color: var(--factorial-red);	
+
+}
+.contact {
+	font-size: 20px;
+}
